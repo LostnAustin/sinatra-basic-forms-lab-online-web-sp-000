@@ -3,10 +3,6 @@ require_relative 'models/puppy.rb'
 
 class App < Sinatra::Base
 
-  # post '/' do
-  #   erb :index
-  # end
-
   get '/' do
     erb :index
   end
@@ -21,7 +17,7 @@ class App < Sinatra::Base
     @breed= params[:breed]
     @age= params[:age]
     # binding.pry
-    erb:create_puppy
+    erb:display_puppy
   end
 
 
