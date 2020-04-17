@@ -3,9 +3,9 @@ require_relative 'models/puppy.rb'
 
 class App < Sinatra::Base
 
-  post '/' do
-    erb :index
-  end
+  # post '/' do
+  #   erb :index
+  # end
 
   get '/' do
     erb :index
