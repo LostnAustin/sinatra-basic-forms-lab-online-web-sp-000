@@ -21,7 +21,7 @@ class App < Sinatra::Base
     @name= params[:name]
     @breed= params[:breed]
     @age= params[:age]
-    binding.pry
+    # binding.pry
     erb:create_puppy
   end
 
